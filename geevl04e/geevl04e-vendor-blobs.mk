@@ -174,4 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F00.bin:system/vendor/firmware/CE170F00.bin \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F01.bin:system/vendor/firmware/CE170F01.bin \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F02.bin:system/vendor/firmware/CE170F02.bin \
-    vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F03.bin:system/vendor/firmware/CE170F03.bin
+    vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F03.bin:system/vendor/firmware/CE170F03.bin \
+    vendor/lge/geevl04e/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
+    vendor/lge/geevl04e/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
+    vendor/lge/geevl04e/proprietary/app/docomoAccountAuthenticator.apk:system/app/docomoAccountAuthenticator.apk \
+    vendor/lge/geevl04e/proprietary/lib/libdaaCrypto.so:system/lib/libdaaCrypto.so
