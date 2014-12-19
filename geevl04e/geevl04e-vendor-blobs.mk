@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geevl04e/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/lge/geevl04e/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/geevl04e/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/e980/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/lge/geevl04e/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/geevl04e/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/geevl04e/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/geevl04e/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -157,22 +157,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geevl04e/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/geevl04e/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/geevl04e/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/lge/e980/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/lge/e980/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/lge/e980/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/lge/e980/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/lge/e980/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/e980/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/e980/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/lge/e980/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/lge/e980/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/lge/e980/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/lge/e980/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/geevl04e/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/geevl04e/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/e980/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/lge/e980/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lge/e980/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/lge/geevl04e/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F00.bin:system/vendor/firmware/CE170F00.bin \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F01.bin:system/vendor/firmware/CE170F01.bin \
     vendor/lge/geevl04e/proprietary/vendor/firmware/CE170F02.bin:system/vendor/firmware/CE170F02.bin \
